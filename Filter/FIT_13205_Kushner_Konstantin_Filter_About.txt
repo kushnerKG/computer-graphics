@@ -1,0 +1,32 @@
+Место нахождения реализаций алгоритмов:
+
+1)алгоритм supersampling - ru.nsu.fit.g13205.kushner.algorithms.Algorithms.superSampling
+2)алгоритм перевода в черно-белое изображение - ru.nsu.fit.g13205.kushner.algorithms.Algorithms.toBlackWhite
+3)алгоритм перевода в негатив - ru.nsu.fit.g13205.kushner.algorithms.Algorithms.toNegative
+4)гамма-коррекция - ru.nsu.fit.g13205.kushner.algorithms.Filters.applyGammaCorrectionFilter
+5)размытое изображение - ru.nsu.fit.g13205.kushner.algorithms.Filters.applyBlurFilter
+6)увеличение резкости - ru.nsu.fit.g13205.kushner.algorithms.Filters.applySharpenFilter
+7)алгоритм выделение границ(робертс) - ru.nsu.fit.g13205.kushner.algorithms.Filters.applyRobertsFilter
+8)алгоритм выделения границ(собель) - ru.nsu.fit.g13205.kushner.algorithms.Filters.applySobelFilter
+9)акваркльное изображение - ru.nsu.fit.g13205.kushner.algorithms.Filters.applyWatercolorFilter
+10)медианный фильтр - ru.nsu.fit.g13205.kushner.algorithms.Filters.applyMedianFilter
+11)тиснение - ru.nsu.fit.g13205.kushner.algorithms.Filters.applyEmbossFilter
+12)алгоритм Флойда-Стенберга - ru.nsu.fit.g13205.kushner.algorithms.Dithering.applyFloydSteinberg
+13)ordered dithering - ru.nsu.fit.g13205.kushner.algorithms.Dithering.applyOrderedDithering
+14)алгоритм билинейной интерполяции(увеличение в два раза) - ru.nsu.fit.g13205.kushner.algorithms.Algorithms.resizeBilinearGray
+15)поворот - ru.nsu.fit.g13205.kushner.algorithms.Algorithms.resizeBilinearGray.applyRotate
+
+Как видно реализованы не все алгоритмы
+
+Помимо этих алгоритмов реализовано:
+1)Чтение из bmp файла
+2)Сохранение в bmp файл
+3)режим pixelize - ru.nsu.fit.g13205.kushner.algorithms.Algorithms.resizeBilinearGray.pixelize
+4)меню бар
+5)tool bar
+6)статус бар
+7)перемещение из зоны B в зону C
+8)перемещение из зоны C в зону B
+9)различные диалоги для перечисленного ранее.
+
+Вообщем сделано все.
